@@ -1,0 +1,70 @@
+.home {
+    font-family: 'Open Sans', sans-serif;
+    color: solid white;
+    padding-left: 2em;
+    font-size: 24px;
+}
+
+.home-page {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        font: semi bold;
+        color: solid white;  
+    }
+
+.button {
+    display: inline-block;
+    padding: 5px 2px;
+    margin: 2px;
+    font-size: 1em;
+    background: #f9e42e;
+    color: white;
+    text-decoration: none; /* gets rid of underline on link */
+    border-radius: 4px;
+    cursor:pointer; /* we need this because we lose the pointer when we make an a tag display block */
+}
+.button:hover {
+    background: #f9e48e;
+}
+    
+.benefits {
+    font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        font: extra bold;
+        color: solid white; 
+    
+}
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+
