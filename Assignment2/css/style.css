@@ -1,21 +1,121 @@
-/*
+#example1{
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+}
+    
+    .home {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bolder;
+    color: solid white;
+    padding-left: 2em;
+    padding-top: 1em;
+    
+}
 
-p {
+.home-page {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-size: 24px;
+        font-weight: 300;
+        color: solid white;
+        padding-left: 4em;
+    }
+
+
+.button {
+    align-content: center;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    font-style: normal;
+    font-size: 14px;
+    background: #f9e42e;
+    color: #033048;
+    text-decoration: none; /* gets rid of underline on link */
+    border-radius: 5px;
+    cursor:pointer; /* we need this because we lose the pointer when we make an a tag display block */
+}
+.button:hover {
+    background: #f9e48e;
+}
+    
+.benefits {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-style: semibold;
+        background-color: solid white;
+        padding-top: 3em;
+        padding-left: 2em;
+    
+}
+.p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: light;
+    background-color: solid white;
+    padding-left: 2em;
+    
+}
+
+.ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: light;
+    background-color: solid white;
+    padding-left: 4em;
+    
+}
+
+.testimonial {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: light italic;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: semibold;
+    text-align: center;
+    
+}
+
+.button2 {
+    align-content: center;
+    display: inline-block;
+    padding: 12px 23px;
+    margin: 5px;
+    font-style: normal;
+    font-size: 10px;
+    background: #033048;
     color: white;
+    text-decoration: none; /* gets rid of underline on link */
+    border-radius: 5px;
+    cursor:pointer; /* we need this because we lose the pointer when we make an a tag display block */
 }
-
-menu {
-background-color: #ffffff;
-background-image:url(header_bg.jpg);
-background-repeat: no-repeat;
-background-position: top center;
+.button:hover {
+    background: solid black;
+    
 }
-#container {
-width: 940px;
-margin: 0 auto;
+.footer {
+    h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: semibold;
+    text-align: center;
+    }
+    
+    h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    font-style: semibold;
+    text-align: center;
+        
+    }
+    
 }
-*/
-
 /* Box Model Hack */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
@@ -33,32 +133,14 @@ margin: 0 auto;
      height: 0;
 }
 
-.clear {
-  clear: both;
-}
 
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
 
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
+
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
-}
 
 
 /******************************************
@@ -66,27 +148,5 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-
-}
-
-header {
-
-}
-
-footer {
-
-}
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-.home button {
-    background-color: yellow;
-}
 
 
